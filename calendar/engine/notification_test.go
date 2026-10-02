@@ -245,5 +245,5 @@ func TestEventToFieldsTimeFormat(t *testing.T) {
 	}
 
 	ff := eventToFields(event, "Europe/Madrid")
-	require.Contains(t, ff[FieldWhen].String(), "6:00 PM - 6:15 PM")
+	require.Contains(t, ff[FieldWhen].Strings()[0], "6:00 PM - 6:15 PM")
 }

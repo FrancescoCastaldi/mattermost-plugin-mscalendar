@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/mattermost/mattermost/server/public/model"
+
 	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
 
 	"github.com/stretchr/testify/require"
